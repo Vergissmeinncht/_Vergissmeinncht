@@ -1,9 +1,0 @@
-class Solution {
-    public int singleNumber(int[] nums) {
-        int a = 0;
-        for(int i = 0;i<nums.length;i++){  //利用异或的特性
-            a ^= nums[i];
-        }
-        return a;
-    }
-}
