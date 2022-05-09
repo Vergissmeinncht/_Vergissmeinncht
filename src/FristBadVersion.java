@@ -11,7 +11,7 @@
 
 The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version);
- */
+
 public class FristBadVersion {
     public class Solution extends VersionControl {
         public int firstBadVersion(int n) {
@@ -29,3 +29,4 @@ public class FristBadVersion {
         }
     }
 }
+*/

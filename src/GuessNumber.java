@@ -22,7 +22,6 @@
  			      1 if num is higher than the guess number
                 otherwise return 0
   int guess(int num);
- */
 public class GuessNumber {
     public int guessNumber(int n) {
         int left = 1;
@@ -38,3 +37,4 @@ public class GuessNumber {
         return left;
     }
 }
+*/
